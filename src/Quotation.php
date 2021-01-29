@@ -11,6 +11,7 @@ class Quotation extends BaseElement
     private static $plural_name = 'Quotations';
     private static $description = 'Adds a simple quotation/testimonial';
     private static $table_name = 'App_Elements_Quotation';
+    private static $icon = 'font-icon-comment';
     private static $db = [
         'Attribution' => 'Varchar(255)'
     ];
